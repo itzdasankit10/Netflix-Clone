@@ -1,0 +1,515 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    width: 100vw;
+    height: 95vh;
+    position: relative;
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+    width: 290px;
+    z-index: 1;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.main .box{
+    background-color: black;
+    opacity: 68%;
+    width: 100vw;
+    height: 95vh;
+    position: absolute;
+    top: 0;
+}
+
+.main .lox{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-right: 220px;
+    padding-top: 16px;
+}
+
+.box1{
+    padding: 7px 28px;
+    background-color: rgba(0, 0, 0, 0.118);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    z-index: 1;
+    position: inherit;
+    cursor: pointer;
+    border: 0.5px solid rgba(255, 255, 255, 0.641);
+}
+
+.box2{
+    padding: 5px 15px;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 15px;
+    border-color: transparent;
+    margin-left: 20px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 4px;
+}
+
+.text{
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.text > :nth-child(1){
+   font-size: 65px;
+   font-weight: 700;
+}
+
+.text > :nth-child(2)
+{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.text > :nth-child(3)
+{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.text .inp{
+    display: flex;
+    align-items: center;
+}
+
+.text .Input{
+    margin-right: 10px;
+    height: 50px;
+    width: 360px;
+    background-color: rgb(23, 23, 23, 0.4);
+    border: 1px solid rgba(183, 179, 179, 0.6);
+    color: white;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text .btnn{
+    padding: 14px 40px;
+    background-color: rgb(210, 21, 21);
+    border-radius: 7px;
+    font-size: x-large;
+    text-align: center;
+    cursor: pointer;
+}
+
+.line{
+    height: 10px;
+    background-color: rgb(58, 58, 58);
+    width: 100vw;
+}
+
+.first{
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100vw;
+}
+
+.first .textt{
+    position: relative;
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+    left: 180px;
+    font-family: "Poppins";
+    word-spacing: -4px;
+    width: 590px;
+    bottom: 20px;
+}
+
+.igm{
+    position: relative;
+   margin: 0px 0px 50px 190px;
+   z-index: 10;
+}
+
+.igm img{
+    z-index: 10;
+    position: relative;
+}
+
+.textt > :nth-child(1)
+{
+    font-size: 42px;
+    font-weight: 900;
+    word-spacing: 3px;
+    position: relative;
+    bottom: 10px;
+}
+
+.igm video{
+    position: absolute;
+    top: 50px;
+    right: 85px;
+}
+
+.second{
+    height: 75vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second img{
+    position: relative;
+    height: 400px;
+}
+
+.second .small{
+    position: relative;
+    height: 100px;
+    border: 2px solid rgb(109, 109, 109);
+    width: 300px;
+    left: 110px;
+    bottom: 130px;
+    z-index: 10;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.second .small img{
+    position: relative;
+    left: 15px;
+    height: 80px;
+    width: 60px;
+    top: 10px;
+}
+
+.second .teext{
+    color: white;
+    left: 30px;
+    position: relative;
+    bottom: 80px;
+    
+}
+
+.second .teext > :nth-child(1)
+{
+    font-size:45px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second .teext > :nth-child(2)
+{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gim span{
+    color: white;
+    position: relative;
+    left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 40px;
+    
+}
+
+.gim .small .al 
+{
+    color: rgb(30, 74, 220);
+    left: 95px;
+    bottom: 38px;
+    position: relative;
+    /* font-size: small; */
+}
+
+.third{
+    background-color: black;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.third .ttext{
+    position: relative;
+    color: white;
+    right: 250px;
+}
+
+.third .ttext > :nth-child(1)
+{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.third .ttext > :nth-child(2)
+{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.third .ttext > :nth-child(3)
+{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+
+.third .smol{
+    position: relative;
+    right: 170px;
+    width: 160px;
+    height: 400px;
+}
+
+.third .smol img{
+    position: relative;
+    width: 600px;
+    height: 450px; 
+    z-index: 10;  
+}
+
+.third .smol video{
+    position: relative;
+    bottom: 430px;
+    left: 115px;
+    width: 370px;
+}
+
+.fourth{
+    background-color: black;
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fourth img{
+    position: relative;
+    right: 40px;
+    width: 550px;
+}
+
+.fourth .teeext{
+    bottom: 20px;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourth .teeext > :nth-child(1)
+{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.fourth .teeext > :nth-child(2)
+{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.fourth .teeext > :nth-child(3)
+{
+    /* margin-top: 10px; */
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.fourth .teeext > :nth-child(4)
+{
+    margin-top: 2px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.fifth{
+    height: 120vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.fifth .head{
+    position: relative;
+    color: white;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    top: 70px;
+}
+
+.fifth .boxes{
+    display: flex;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    padding: 0px 20px;
+    max-width: 70vw;
+    height: 10vh;
+    top: 100px;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.fifth .boxes:hover{
+    transition: all 0.4s ease-out ;
+    background-color: rgb(94, 93, 93);
+}
+
+.fifth .boxes img{
+    height: 20px;
+}
+
+.fifth p{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 150px;
+}
+
+.fifth .get {
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between input and button if needed */
+}
+
+.fifth input {
+    text-align: center;
+    background-color: rgba(65, 65, 65, 0.463);
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.799);
+    border-radius: 6px;
+    color: white;
+    text-align: left;
+}
+
+.fifth button {
+    background-color: red;
+    color: white;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    width: 210px;
+    height: 51px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.foot{
+    color: rgb(171, 170, 170);
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    
+}
+
+.foot > :nth-child(1)
+{
+    position: relative;
+    top: 55px;
+    left: 190px;
+    /* margin: 30px; */
+}
+
+.foot .tables{
+    display: flex;
+    position: relative;
+    gap: 120px;
+    margin: 40px auto;
+    left: 190px;
+    top: 20px;
+}
+
+.foot .tables li{
+    margin: 20px 0px;
+    margin-right: 50px;
+}
+
+.foot .tables ul{
+    list-style: none;
+}
+
+.foot .tables a{
+    color: rgb(171, 170, 170);
+}
+
+u{
+    cursor: pointer;
+}
+
+.foot button{
+    position: relative;
+    left: 187px;
+    bottom: 20px;
+}
+
+.foot .last{
+    position: absolute;
+    left:187px;
+    color: rgb(171, 170, 170);
+    
+}
